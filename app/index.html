@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leonida Platinum — GTA VI Trophy Guide &amp; Tracker</title>
+<meta name="description" content="Offline guide and tracker for all 55 Grand Theft Auto VI trophies on PlayStation 5: cited guides, a roadmap to the platinum, missable flags, and saved progress.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="banner">
+  <div class="banner-inner">
+    <p class="eyebrow">Grand Theft Auto VI &middot; PlayStation 5 &middot; 55 trophies</p>
+    <h1>Leonida Platinum</h1>
+    <p class="subtitle">Every trophy, every step, every source — offline, in one page.</p>
+    <p class="grade-line" id="gradeLine">Loading the trophy list…</p>
+    <div class="meter" aria-label="Progress toward the platinum">
+      <div class="meter-fill" id="meterFill" style="width: 0%"></div>
+    </div>
+    <p class="missable-alert"><strong>One missable:</strong> <em>Positive Mental Attitude</em> — meditate at all 18 spots before the story ends.</p>
+  </div>
+</header>
+
+<main>
+  <section class="panel" aria-label="Search and filters">
+    <input id="searchBox" type="search" placeholder="Search a trophy, a mission, an activity…" aria-label="Search trophies" autocomplete="off">
+    <div class="chip-row" id="gradeChips" role="group" aria-label="Filter by grade">
+      <button type="button" data-grade="all" class="chip on">All grades</button>
+      <button type="button" data-grade="platinum" class="chip">Platinum</button>
+      <button type="button" data-grade="gold" class="chip">Gold</button>
+      <button type="button" data-grade="silver" class="chip">Silver</button>
+      <button type="button" data-grade="bronze" class="chip">Bronze</button>
+    </div>
+    <div class="chip-row" id="kindChips" role="group" aria-label="Filter by kind">
+      <button type="button" data-kind="all" class="chip on">Everything</button>
+      <button type="button" data-kind="story" class="chip">Story</button>
+      <button type="button" data-kind="missable" class="chip">Missable</button>
+      <button type="button" data-kind="collectible" class="chip">Collectibles</button>
+      <button type="button" data-kind="activity" class="chip">Activities</button>
+      <button type="button" data-kind="online" class="chip">Online</button>
+      <button type="button" data-kind="unearned" class="chip">Not earned yet</button>
+    </div>
+    <div class="switches">
+      <label class="switch"><input type="checkbox" id="spoilerSwitch"> Hide story trophies until earned <span class="note">(spoiler-safe)</span></label>
+      <label class="switch"><input type="checkbox" id="earnedSwitch"> Earned only</label>
+    </div>
+    <div class="tool-row">
+      <button type="button" id="nextBtn" class="btn main-btn">Suggest my next trophy</button>
+      <button type="button" id="exportBtn" class="btn">Export progress</button>
+      <button type="button" id="importBtn" class="btn">Import progress</button>
+      <input type="file" id="importPicker" accept="application/json" hidden>
+      <button type="button" id="clearBtn" class="btn warn-btn">Reset progress</button>
+    </div>
+    <p class="next-pick" id="nextPick" hidden></p>
+  </section>
+
+  <section aria-label="Trophy list">
+    <h2 id="listTitle">All 55 trophies</h2>
+    <p class="showing" id="showingLine"></p>
+    <ul class="cards" id="cardList"></ul>
+  </section>
+
+  <section class="panel roadmap" id="roadmap" aria-label="Roadmap to the platinum">
+    <h2>Roadmap to the platinum</h2>
+    <ol class="roadmap-steps">
+      <li><strong>Play the story first.</strong> The opening, Chapters 1–4 and the final mission earn 6 trophies by themselves; six more come from story missions on the way, and the strands for Andy, Kenton, Billy, Randy and Tyrone each end in one. The story unlocks the map, the activities and the money everything else needs.</li>
+      <li><strong>Watch the one missable.</strong> <em>Positive Mental Attitude</em> wants you to meditate at every spot across Leonida — 18 of them. They are easy to walk past and never come back as a checklist, so stop at each one as you travel instead of saving it for cleanup.</li>
+      <li><strong>Try every activity once.</strong> <em>Master of None</em> needs a single attempt at each of the 9 activity types. While you are out there, start the long counts: 250 stunts, 20 different race wins, 42 Shooting Range golds, 14 Top Fun drone-race locations.</li>
+      <li><strong>Collect while you explore.</strong> Card sets, 100 vehicles, 52 areas of Leonida and 10 Scooter Bros registrations all reward moving through the state with your eyes open. The 100 WAiNK spots and the 5 bank vaults are the long tail — fold them into free-roam sessions.</li>
+      <li><strong>Clean up, then 100%.</strong> Finish the remaining challenges, the stranger strands and the money goals ($250,000 laundered, $100,000 spent, all 8 garages). <em>A Long Road</em> — 100% completion — is the last gold before the platinum pops.</li>
+    </ol>
+  </section>
+
+  <section class="panel sources" aria-label="Sources">
+    <h2>Where the facts come from</h2>
+    <p>Names, descriptions and grades are the official PlayStation trophy list. Each guide names the community guide its how-to draws on — PowerPyx, PlayStationTrophies.org, PSNProfiles, TrueTrophies or Exophase — and is written in our own words; nothing is copied from those guides. Counts and objectives (250 stunts, 100 vehicles, 52 areas, 18 meditation spots) come straight from the official descriptions.</p>
+  </section>
+</main>
+
+<footer>
+  <p>Leonida Platinum is an unofficial, fan-made guide. Grand Theft Auto and GTA are trademarks of Rockstar Games; this guide uses no Rockstar artwork or logos. MIT licensed — fork it, host it, improve it.</p>
+</footer>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
