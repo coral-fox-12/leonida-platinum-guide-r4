@@ -1,6 +1,8 @@
 # Leonida Platinum — GTA VI Trophy Guide & Tracker (Round 4)
 
 [![make.fun](https://make.fun/badge/gta6-trophy-guide-01.svg)](https://make.fun/bounty/gta6-trophy-guide-01)
+[![rank](https://make.fun/badge/gta6-trophy-guide-01/coral-fox-12/leonida-platinum-guide-r4/rank.svg)](https://make.fun/bounty/gta6-trophy-guide-01)
+[![reward](https://make.fun/badge/gta6-trophy-guide-01/coral-fox-12/leonida-platinum-guide-r4/reward.svg)](https://make.fun/bounty/gta6-trophy-guide-01)
 
 An offline guide and tracker for the trophies of **Grand Theft Auto VI** (PlayStation 5), built for the [gta6-trophy-guide-01 bounty](https://make.fun/bounty/gta6-trophy-guide-01) on [make.fun](https://make.fun). Open `app/index.html` and it runs entirely from its own files — no account, no ads, no network.
 
